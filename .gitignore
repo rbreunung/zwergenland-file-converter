@@ -1,0 +1,8 @@
+# cache
+__pycache__
+/main.spec
+# environment
+/.venv/
+# binaries
+/dist/
+/build/
