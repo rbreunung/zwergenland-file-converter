@@ -1,13 +1,15 @@
-
+"""Main application entry."""
 from tkinter import StringVar, Tk
 from tkinter.ttk import Button, Entry, Frame, Label
 
 
 def close(root_window: Tk):
+    """Close the window and the application."""
     root_window.destroy()
 
 
 def add_input_frame_widgets(frame: Frame):
+    """Add all widgets to the inputs frame and connect the relevant commands."""
 
     entry_value = StringVar()
 
@@ -20,6 +22,7 @@ def add_input_frame_widgets(frame: Frame):
 
 
 def main():
+    """Create an entry UI."""
     root_window = Tk()
     root_window.title("Converter")
 
