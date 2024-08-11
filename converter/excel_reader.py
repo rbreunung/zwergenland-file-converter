@@ -13,7 +13,7 @@ class ExcelReader:
     """The behavior necessary to open a .xlsx file and parse the contacts from the known format."""
 
     def __init__(self, file_name: str) -> None:
-        self._file = pandas.read_excel(file_name)
+        self._file = pandas.read_excel(file_name, engine='openpyxl')
 
     def read_parent_contacts(self) -> List[Contact]:
         """Read the Excel file in the child-parent-format and parse parent contacts."""
