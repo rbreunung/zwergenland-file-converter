@@ -6,7 +6,6 @@ from converter.excel_reader import ExcelReader
 
 class TestExcelReader(TestCase):
 
-    def test_hello(self):
+    def test_read_parent_contacts(self):
         unit = ExcelReader("res/Mappe1.xlsx")
-        unit.hello()
-        pass
+        unit.read_parent_contacts()
