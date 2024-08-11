@@ -41,7 +41,7 @@ python -m unittest
 Run the application from virtual environment in Git root.
 
 ```bash
-python.exe .\converter\main.py
+python.exe ./converter/main.py
 ```
 
 ## Build
