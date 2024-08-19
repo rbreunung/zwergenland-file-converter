@@ -19,11 +19,11 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install -r requirements-integration.txt
     - name: Run unit tests
       run: |
         python -m unittest
     - name: Analyse the code with pylint
       run: |
-        pylint converter
+        pylint converter --max-line-length=120
       continue-on-error: true
