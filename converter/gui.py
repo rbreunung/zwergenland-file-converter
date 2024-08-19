@@ -1,4 +1,4 @@
-"""Main application entry."""
+"""Main application for GUI interaction."""
 from tkinter import StringVar, Tk
 from tkinter.ttk import Button, Entry, Frame, Label
 

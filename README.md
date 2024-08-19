@@ -34,6 +34,7 @@ deactivate
 
 ```bash
 python -m unittest
+python -m pylint converter --max-line-length=120
 ```
 
 ## Run

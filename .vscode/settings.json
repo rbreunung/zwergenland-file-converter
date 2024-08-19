@@ -1,0 +1,27 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    "cSpell.words": [
+        "Kindergarden",
+        "padx",
+        "pady",
+        "textvariable",
+        "Zwergenland"
+    ],
+    "autopep8.args": [
+        "--max-line-length=120"
+    ],
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./test",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "files.eol": "\n",
+    "pylint.args": [
+        "--max-line-length=120"
+    ]
+}
