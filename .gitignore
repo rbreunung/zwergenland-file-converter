@@ -1,8 +1,11 @@
 # cache
 __pycache__
 /main.spec
+
 # environment
 /.venv/
+/dev-env/
+
 # binaries
 /dist/
 /build/
